@@ -1,6 +1,6 @@
 {
   "name": "tmc-wechat",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "WeChat SDK for TMC",
   "main": "index.js",
   "scripts": {
@@ -21,8 +21,11 @@
   "homepage": "https://github.com/jasonwwl/wechat-sdk#readme",
   "dependencies": {
     "eventproxy": "^0.3.3",
-    "mongoose": "^4.0.3",
     "moment": "^2.10.3",
+    "mongoose": "^4.0.3",
     "request": "^2.55.0"
+  },
+  "devDependencies": {
+    "mocha": "^2.2.5"
   }
 }

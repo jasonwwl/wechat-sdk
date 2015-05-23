@@ -1,5 +1,6 @@
-var wechat = require('./lib/wechat');
-var client = require('./lib/client');
+module.exports.wxServer = require('./lib/wechat');
 
-module.exports.wxServer = wechat;
-module.exports.client = client;
+/**
+ * @class {Client}
+ */
+module.exports.client = require('./lib/client');
